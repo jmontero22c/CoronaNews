@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CoronaNews</string>
+    <string name="menu">Menu</string>
+    <string name="noticias">NOTICIAS</string>
+    <string name="noticiasGuardadas">NOTICIAS GUARDADAS</string>
+</resources>
