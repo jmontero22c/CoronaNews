@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cuidados">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/cuidado1"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:srcCompat="@drawable/cuidados1" />
+
+            <ImageView
+                android:id="@+id/cuidado2"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                app:srcCompat="@drawable/cuidados2" />
+
+            <ImageView
+                android:id="@+id/cuidado3"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                app:srcCompat="@drawable/cuidados3" />
+
+            <ImageView
+                android:id="@+id/cuidado4"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                app:srcCompat="@drawable/cuidados4" />
+
+            <ImageView
+                android:id="@+id/cuidado5"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                app:srcCompat="@drawable/cuidados5" />
+
+            <ImageView
+                android:id="@+id/cuidado6"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                app:srcCompat="@drawable/cuidados6" />
+
+            <ImageView
+                android:id="@+id/cuidado7"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                app:srcCompat="@drawable/cuidados7" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

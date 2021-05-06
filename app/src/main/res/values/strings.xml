@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">CoronaNews</string>
-    <string name="menu">Menu</string>
+    <string name="menu">CORONA NEWS </string>
+    <string name="descripcion">Mantente informado del virus</string>
     <string name="noticias">NOTICIAS</string>
     <string name="noticiasGuardadas">NOTICIAS GUARDADAS</string>
+    <string name="comoCuidarseEnCasa">¿COMO CUIDARSE EN CASA?</string>
 </resources>
