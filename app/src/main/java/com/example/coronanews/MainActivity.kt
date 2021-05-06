@@ -16,7 +16,12 @@ class MainActivity : AppCompatActivity() {
         val adapterSpinner: ArrayAdapter<CharSequence> = ArrayAdapter.createFromResource(this,R.array.Opciones,android.R.layout.simple_spinner_item)
         spinner.adapter=adapterSpinner*/
 
-
+        val spinner: Spinner = findViewById(R.id.spinner)
+        ArrayAdapter.createFromResource(this, R.array.Opciones, android.R.layout.simple_spinner_item
+        ).also { adapter ->
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            spinner.adapter = adapter
+        }
 
         val noticias_list =findViewById<ListView>(R.id.noticias)
         val noticias = arrayListOf<noticias>(
