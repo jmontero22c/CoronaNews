@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:id="@+id/menu"
-        android:layout_width="392dp"
+        android:layout_width="0dp"
         android:layout_height="148dp"
         android:background="@android:color/holo_blue_dark"
 
@@ -19,24 +19,41 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-        <TextView
-            android:id="@+id/tituloMenu"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/menu"
-            android:textColor="#FFFAFA"
-            android:textColorHighlight="#000000"
-            android:textColorHint="#000000"
-            android:textColorLink="#000000"
-            android:textSize="26sp"
-            android:textStyle="bold" />
+            android:layout_height="47dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tituloMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingLeft="3dp"
+                android:text="@string/menu"
+                android:textColor="#FFFAFA"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="47dp"
             android:layout_weight="1"
+            android:paddingLeft="3dp"
             android:text="@string/descripcion"
             android:textColor="#FFFFFF"
             android:textSize="22sp" />
@@ -45,9 +62,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/opcionesMenu"
-        android:layout_width="395dp"
-        android:layout_height="663dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="411dp"
+        android:layout_height="579dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,12 +71,26 @@
 
 
         <Button
+            android:id="@+id/comoVacunarte"
+            android:layout_width="370dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="152dp"
+            android:text="@string/como_vacunarme"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/noticiasMenu" />
+
+        <Button
             android:id="@+id/cuidarseEnCasa"
             android:layout_width="370dp"
             android:layout_height="53dp"
-            android:layout_marginTop="64dp"
+            android:layout_marginTop="52dp"
             android:text="@string/comoCuidarseEnCasa"
+            app:cornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/noticiasMenu" />
 
@@ -70,20 +100,11 @@
             android:layout_height="53dp"
             android:layout_marginTop="52dp"
             android:text="@string/noticias"
+            app:cornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.533"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/noticiasGuardadas"
-            android:layout_width="370dp"
-            android:layout_height="53dp"
-            android:layout_marginTop="4dp"
-            android:text="@string/noticiasGuardadas"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/noticiasMenu" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

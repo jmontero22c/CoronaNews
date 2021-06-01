@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoronaNews">
         <activity android:name=".Cuidados"></activity>
-        <activity android:name=".noticias_guardadas" />
-        <activity android:name=".menu_1" />
+        <activity android:name=".NoticiasGuardadas" />
+        <activity android:name=".Menu" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="Opciones">
-        <item></item>
-        <item>Noticia Guardada</item>
-        <item>Noticia Leida</item>
-    </string-array>
-
-</resources>

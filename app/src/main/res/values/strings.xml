@@ -5,4 +5,7 @@
     <string name="noticias">NOTICIAS</string>
     <string name="noticiasGuardadas">NOTICIAS GUARDADAS</string>
     <string name="comoCuidarseEnCasa">¿COMO CUIDARSE EN CASA?</string>
+    <string name="como_vacunarme">¿Como vacunarme?</string>
+    <string name="leida">Leida</string>
+    <string name="titular">Titular</string>
 </resources>
